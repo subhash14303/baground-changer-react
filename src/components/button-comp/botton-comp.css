@@ -1,0 +1,35 @@
+/* Basic Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover Styles */
+  .button:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Optional: Active Styles */
+  .button:active {
+    transform: translateY(2px);
+  }
+  
+  /* Optional: Disabled Styles */
+  .button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  /* Example Usage */
+  /* <a href="#" class="button">Click me</a> */
+  
